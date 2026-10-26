@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Aathi’s 2nd Birthday – Invitation</title>
+<title>Aadhi’s 2nd Birthday – Invitation</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
 <style>
@@ -129,11 +129,9 @@ h2{font-size:2.5rem;line-height:1.1;color:var(--violet);margin-bottom:12px}
 .cf.a.m{left:auto;right:-30px;transform-origin:100% 0}.cf.b.m{right:auto;left:-30px;transform-origin:0 100%}
 @keyframes sway{50%{transform:rotate(calc(var(--b,0deg) + 5deg))}}
 .ef{position:absolute;z-index:3;width:44%;pointer-events:none;bottom:-12%;left:-8%}.ef.r{left:auto;right:-8%;transform:scaleX(-1)}
-.photo{width:190px;height:190px;margin:0 auto 6px;border-radius:50%;padding:7px;background:conic-gradient(from 30deg,#e6cf97,#b8944f,#f3e3b8,#b8944f,#e6cf97);cursor:pointer;box-shadow:0 10px 26px rgba(122,79,181,.35);animation:glow 3.5s ease-in-out infinite}
+.photo{width:190px;height:190px;margin:0 auto 6px;border-radius:50%;padding:7px;background:conic-gradient(from 30deg,#e6cf97,#b8944f,#f3e3b8,#b8944f,#e6cf97);box-shadow:0 10px 26px rgba(122,79,181,.35);animation:glow 3.5s ease-in-out infinite}
 .photo>div{width:100%;height:100%;border-radius:50%;background:radial-gradient(circle at 50% 35%,#f4ecfd,#cdb8ee);overflow:hidden;display:grid;place-items:center;border:4px solid #fff;text-align:center}
-.photo img{width:100%;height:100%;object-fit:cover;display:none}
-.photo.has img{display:block}.photo.has .ph{display:none}
-.ph{font-size:.95rem;font-style:italic;line-height:1.1}.ph b{display:block;font:400 3.2rem 'Pinyon Script',cursive;color:var(--violet)}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}
 @keyframes glow{50%{box-shadow:0 10px 36px rgba(156,117,210,.75)}}
 .gifts{display:flex;justify-content:center;align-items:flex-end;gap:8px;margin-top:24px}
 .gifts svg{width:48px;height:48px;animation:bob 2.4s ease-in-out infinite}.gifts svg:nth-child(2n){width:36px;height:72px;animation-delay:.5s}.gifts svg:nth-child(3){width:62px;height:62px;animation-delay:.9s}
@@ -146,24 +144,23 @@ main{position:relative;z-index:1;padding:0 0 30px;margin:16px auto 40px;width:ca
 .sheet.hero{padding-top:44px}
 .sheet.hero::after{display:block;content:"";position:absolute;inset:0;z-index:0;pointer-events:none;background:linear-gradient(rgba(255,253,255,.78))}
 .sheet>.dv{position:absolute;left:50%;top:-16px;width:32px;height:32px;margin-left:-16px;z-index:2}
-.vp{position:relative;width:100%;aspect-ratio:4/3;border-radius:130px 130px 16px 16px;overflow:hidden;margin:6px auto 16px;cursor:pointer;box-shadow:0 0 0 4px #fff,0 0 0 6px var(--lilac),0 12px 24px rgba(75,42,120,.25)}
-.vp svg,.vp img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.vp img{display:none}.vp.has img{display:block}.vp.has svg{display:none}
-.vp small{position:absolute;bottom:6px;left:0;right:0;font-size:.85rem;color:#fff;text-shadow:0 1px 3px rgba(40,10,80,.6)}.vp.has small{display:none}
+.vp{background:linear-gradient(180deg,#cdb8ee,#efe7fa);position:relative;width:100%;aspect-ratio:4/3;border-radius:130px 130px 16px 16px;overflow:hidden;margin:6px auto 16px;cursor:pointer;box-shadow:0 0 0 4px #fff,0 0 0 6px var(--lilac),0 12px 24px rgba(75,42,120,.25)}
+.vp img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 .jr{list-style:none;padding:0;margin:22px 0 0;position:relative}
 .jr::before{content:"";position:absolute;left:50%;top:10px;bottom:10px;width:2px;background:repeating-linear-gradient(var(--lilac) 0 6px,transparent 6px 12px);transform:translateX(-50%)}
 .jr li{display:grid;grid-template-columns:1fr 34px 1fr;align-items:center;margin:0 0 26px}
 .jr .dot{width:18px;height:18px;border-radius:50%;background:var(--violet);border:4px solid var(--white);box-shadow:0 0 0 2px var(--violet);justify-self:center}
 .jr .tx{font-size:1.05rem;line-height:1.25;padding:0 8px}.jr .tx b{display:block;font:400 1.7rem 'Pinyon Script',cursive;color:var(--violet)}
 .jr li.l .tx{text-align:left}.jr li.rt .tx{text-align:right}
-.slot{width:116px;height:116px;border-radius:50%;padding:5px;background:conic-gradient(from 30deg,#e6cf97,#b8944f,#f3e3b8,#b8944f,#e6cf97);cursor:pointer;box-shadow:0 8px 18px rgba(122,79,181,.3)}
+.slot{width:116px;height:116px;border-radius:50%;padding:5px;background:conic-gradient(from 30deg,#e6cf97,#b8944f,#f3e3b8,#b8944f,#e6cf97);box-shadow:0 8px 18px rgba(122,79,181,.3)}
 .jr li.l .slot{justify-self:end}.jr li.rt .slot{justify-self:start}
 .slot div{width:100%;height:100%;border-radius:50%;background:radial-gradient(circle at 50% 35%,#f4ecfd,#cdb8ee);border:3px solid #fff;overflow:hidden;display:grid;place-items:center;font-size:.8rem;font-style:italic;color:var(--violet);text-align:center;line-height:1.1}
-.slot img{display:none;width:100%;height:100%;object-fit:cover}.slot.has img{display:block}.slot.has span{display:none}
+.slot img{display:block;width:100%;height:100%;object-fit:cover}
 
 .fy{opacity:.35!important}
-.tl .ic.pi{width:92px;height:92px;position:relative;overflow:hidden;cursor:pointer;display:block}
-.tl .ic.pi svg,.tl .ic.pi img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.tl .ic.pi img{display:none}.tl .ic.pi.has img{display:block}.tl .ic.pi.has svg{display:none}
+.tl .ic.pi{width:92px;height:92px;position:relative;overflow:hidden;display:block}
+.tl .ic.pi img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.tl .ic.pi img{display:block}
 a.vp{display:block;text-decoration:none;transition:transform .25s ease,box-shadow .25s ease}
 a.vp:hover,a.vp:focus-visible{transform:translateY(-3px);box-shadow:0 0 0 4px #fff,0 0 0 6px var(--violet),0 18px 30px rgba(75,42,120,.35);outline:0}
 a.vp:active{transform:scale(.98)}
@@ -171,15 +168,7 @@ a.vp:active{transform:scale(.98)}
 .vp .go i{display:inline-block;font-style:normal;animation:pinb 1.3s ease-in-out infinite}
 @keyframes nudge{50%{transform:translateX(-50%) translateY(-4px)}}
 @keyframes pinb{50%{transform:translateY(-3px) scale(1.15)}}
-.vp .wv{animation:flow 5s linear infinite}.vp .wv.w2{animation-duration:7s;animation-direction:reverse}.vp .wv.w3{animation-duration:9s}
-@keyframes flow{to{transform:translateX(-60px)}}
-.vp .boat{animation:rock 3.8s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 90%}
-@keyframes rock{50%{transform:translateY(-3px) rotate(.8deg)}}
-.vp .sunp{animation:pulse 4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-@keyframes pulse{50%{transform:scale(1.1);opacity:.85}}
-.vp .bird{animation:fly 11s linear infinite}.vp .bird.b2{animation-duration:14s;animation-delay:-5s}
-@keyframes fly{from{transform:translateX(-60px)}to{transform:translateX(340px)}}
-@media(prefers-reduced-motion:reduce){.vp svg *,.vp .go,.vp .go i,.letter .sp,.letter .gold{animation:none}.env.open .letter>.rv{animation:none;opacity:1}}
+@media(prefers-reduced-motion:reduce){.vp .go,.vp .go i,.letter .sp,.letter .gold{animation:none}.env.open .letter>.rv{animation:none;opacity:1}}
 .mbtn{position:fixed;right:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:40;width:54px;height:54px;border-radius:50%;border:0;cursor:pointer;display:grid;place-items:center;background:linear-gradient(135deg,#8a5cc9,#5d33a0);box-shadow:0 8px 20px rgba(93,51,160,.45),inset 0 0 0 2px rgba(255,255,255,.25);opacity:0;pointer-events:none;transform:scale(.6);transition:opacity .5s ease,transform .5s cubic-bezier(.3,1.5,.5,1)}
 body.ready .mbtn{opacity:1;pointer-events:auto;transform:none}
 .mbtn svg{width:24px;height:24px;fill:#fff}
@@ -196,6 +185,16 @@ body.ready .mbtn{opacity:1;pointer-events:auto;transform:none}
 @media(prefers-reduced-motion:reduce){
 .env,.fy,.cf,.photo,.gifts svg{animation:none}.petal{display:none}*{transition-duration:.01s!important}
 .env.open .letter{animation-duration:.01s!important;animation-delay:0s!important}}
+
+/* gallery + credit */
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:18px auto 0;max-width:380px}
+.gt{position:relative;aspect-ratio:1;border-radius:14px;overflow:hidden;display:grid;place-items:center;font-size:.8rem;font-style:italic;color:var(--violet);text-align:center;line-height:1.1;
+background:radial-gradient(circle at 50% 35%,#f4ecfd,#cdb8ee);box-shadow:0 0 0 3px #fff,0 0 0 4px var(--lilac),0 6px 14px rgba(75,42,120,.18);transition:transform .25s ease}
+.gt:nth-child(odd){transform:rotate(-1.5deg)}.gt:nth-child(even){transform:rotate(1.5deg)}
+.gt img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.credit{text-align:center;font-size:1rem;letter-spacing:.04em;color:var(--violet);margin:22px 20px 22px}
+.credit a{color:#5d33a0;font-weight:600;text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:1px;transition:color .2s ease,border-color .2s ease}
+.credit a:hover,.credit a:focus-visible{color:#c9a96a;border-color:#5d33a0;outline:0}
 </style>
 </head>
 <body class="locked">
@@ -209,7 +208,7 @@ body.ready .mbtn{opacity:1;pointer-events:auto;transform:none}
   <button class="env" id="env" aria-label="Open the invitation">
     <div class="back"></div>
     <div class="letter"><i class="sp s1">✦</i><i class="sp s2">✦</i><i class="sp s3">✦</i><i class="sp s4">✦</i>
-      <span class="orn rv" style="animation-delay:1.4s"></span><small class="l1 rv" style="animation-delay:1.6s">You’re invited to</small><div class="nm script rv" style="animation-delay:1.85s">Aathi’s</div><div class="two rv" style="animation-delay:2.1s"><span class="gold">2<sup>nd</sup></span></div><div class="bd script rv" style="animation-delay:2.35s">Birthday</div><div class="dt rv" id="ldate" style="animation-delay:2.6s">Saturday, 7 November 2026</div></div>
+      <span class="orn rv" style="animation-delay:1.4s"></span><small class="l1 rv" style="animation-delay:1.6s">You’re invited to</small><div class="nm script rv" style="animation-delay:1.85s">Aadhi’s</div><div class="two rv" style="animation-delay:2.1s"><span class="gold">2<sup>nd</sup></span></div><div class="bd script rv" style="animation-delay:2.35s">Birthday</div><div class="dt rv" id="ldate" style="animation-delay:2.6s">Saturday, 7 November 2026</div></div>
     <div class="front"></div>
     <div class="flap"><i></i><i></i></div>
     <div class="seal">A</div>
@@ -218,9 +217,9 @@ body.ready .mbtn{opacity:1;pointer-events:auto;transform:none}
 
 <main id="card">
   <section class="sheet hero">
-    <div class="photo" id="photo" role="button" tabindex="0" aria-label="Aathi's photo"><div><img id="phimg" src="timeline4.jpeg" alt="Aathi" onload="this.closest('.photo').classList.add('has')"><span class="ph"><b>Aathi</b>tap to add photo</span></div></div><input type="file" id="pf" accept="image/*" hidden>
+    <div class="photo" id="photo" aria-label="Aadhi's photo"><div><img onerror="this.style.display='none'" id="phimg" src="aadhi-pic.jpeg" alt="Aadhi"></div></div>
     <p class="lead">Join us as we celebrate</p>
-    <h1 class="script">Aathi’s</h1>
+    <h1 class="script">Aadhi’s</h1>
     <div class="num">2<sup>nd</sup></div>
     <p class="script" style="font-size:2.6rem;color:var(--plum);line-height:1.2">Birthday</p>
     <div class="when"><b id="dd">7</b><span id="dm">Saturday, November<br>2026</span><span>Starting<br>at 11 AM</span></div>
@@ -232,28 +231,28 @@ body.ready .mbtn{opacity:1;pointer-events:auto;transform:none}
     <h2 class="script">Program</h2>
     <p class="lead">A lazy, happy day on the backwaters</p>
     <ul class="tl">
-      <li><div><div class="t">11:00 AM</div><div class="d">Cake cutting</div></div><span class="dot"></span><div class="ic pi" role="img" aria-label="Birthday cake"><svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><linearGradient id="pc" x2="0" y2="1"><stop offset="0" stop-color="#f8eaf3"/><stop offset="1" stop-color="#cdb8ee"/></linearGradient><filter id="pb"><feGaussianBlur stdDeviation="4"/></filter></defs><rect width="320" height="200" fill="url(#pc)"/><g filter="url(#pb)" fill="#fff" opacity=".75"><circle cx="40" cy="40" r="16"/><circle cx="100" cy="20" r="10"/><circle cx="256" cy="34" r="18"/><circle cx="296" cy="92" r="12"/><circle cx="18" cy="112" r="12"/><circle cx="226" cy="14" r="8"/></g><rect y="152" width="320" height="48" fill="#9a7352"/><path d="M0 152h320v7H0z" fill="#b8916c"/><ellipse cx="160" cy="156" rx="88" ry="10" fill="#fffdff"/><rect x="108" y="108" width="104" height="46" rx="7" fill="#fffdff"/><rect x="108" y="126" width="104" height="8" fill="#cdb8ee"/><rect x="130" y="76" width="60" height="34" rx="6" fill="#f1e7fc"/><rect x="130" y="92" width="60" height="6" fill="#b794e8"/><g fill="#7a4fb5"><circle cx="142" cy="75" r="5"/><circle cx="160" cy="73" r="5"/><circle cx="178" cy="75" r="5"/></g><g fill="#fff"><rect x="148" y="52" width="5" height="22" rx="1"/><rect x="168" y="52" width="5" height="22" rx="1"/></g><g fill="#ffd36a"><circle cx="150" cy="46" r="12" opacity=".35" filter="url(#pb)"/><circle cx="170" cy="46" r="12" opacity=".35" filter="url(#pb)"/><ellipse cx="150.5" cy="46" rx="3.5" ry="7"/><ellipse cx="170.5" cy="46" rx="3.5" ry="7"/></g></svg><img src="cake-img.webp" alt="Birthday cake" onload="this.parentNode.classList.add('has')"></div></li>
-      <li class="r"><div><div class="t">Around 1:00 PM</div><div class="d">Lunch on board</div></div><span class="dot"></span><div class="ic pi" role="img" aria-label="Kerala lunch on a banana leaf"><svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><linearGradient id="pl" x2="0" y2="1"><stop offset="0" stop-color="#bfe0d6"/><stop offset="1" stop-color="#e9f2e2"/></linearGradient></defs><rect width="320" height="200" fill="url(#pl)"/><rect y="84" width="320" height="38" fill="#8fc0c2"/><path d="M0 84q40-12 80-4t90-6 150 8v6H0z" fill="#4f8a62" opacity=".75"/><g stroke="#2f1a52" fill="none" stroke-width="4" stroke-linecap="round"><path d="M38 200Q46 150 54 104M54 104q-20-14-38-4M54 104q18-16 38-8M54 104q-6-22 10-30M54 104q-16-4-26 12"/></g><g stroke="#2f1a52" fill="none" stroke-width="4" stroke-linecap="round"><path d="M272 200Q266 150 258 104M258 104q-20-14-38-4M258 104q18-16 38-8M258 104q-6-22 10-30M258 104q-16-4-26 12"/></g><rect y="120" width="320" height="80" fill="#8a5f3e"/><g stroke="#6f4a2f" stroke-width="2"><path d="M0 144h320M0 170h320"/></g><ellipse cx="160" cy="160" rx="108" ry="30" fill="#3f8a4c"/><ellipse cx="160" cy="159" rx="100" ry="26" fill="#63b068"/><path d="M60 160h200" stroke="#3f8a4c" stroke-width="2"/><ellipse cx="160" cy="155" rx="30" ry="13" fill="#fffaf0"/><g><circle cx="108" cy="158" r="9" fill="#e8873a"/><circle cx="124" cy="170" r="8" fill="#c0392b"/><circle cx="196" cy="172" r="8" fill="#f2c14e"/><circle cx="214" cy="158" r="9" fill="#a05a8f"/><circle cx="160" cy="176" r="7" fill="#7bc67b"/><circle cx="140" cy="140" r="6" fill="#f2c14e"/><circle cx="182" cy="140" r="6" fill="#e8873a"/></g><rect x="268" y="116" width="22" height="38" rx="4" fill="#fff" opacity=".55"/><rect x="270" y="130" width="18" height="22" rx="3" fill="#cfe9f5" opacity=".8"/></svg><img src="food-img.webp" alt="Kerala lunch on a banana leaf" onload="this.parentNode.classList.add('has')"></div></li>
-      <li style="margin-bottom:0"><div><div class="t">4:00 – 5:00 PM</div><div class="d">Wrapping up</div></div><span class="dot"></span><div class="ic pi" role="img" aria-label="Sunset on the backwaters"><svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><linearGradient id="ps" x2="0" y2="1"><stop offset="0" stop-color="#5d33a0"/><stop offset=".5" stop-color="#c76bb0"/><stop offset="1" stop-color="#ffb27a"/></linearGradient><linearGradient id="pw" x2="0" y2="1"><stop offset="0" stop-color="#e49a8f"/><stop offset="1" stop-color="#5d33a0"/></linearGradient></defs><rect width="320" height="124" fill="url(#ps)"/><circle cx="160" cy="112" r="46" fill="#ffd9a0" opacity=".35"/><circle cx="160" cy="112" r="24" fill="#fff1c4"/><rect y="124" width="320" height="76" fill="url(#pw)"/><g fill="#fff" opacity=".45"><rect x="140" y="130" width="40" height="3" rx="1.5"/><rect x="146" y="140" width="28" height="3" rx="1.5"/><rect x="132" y="152" width="56" height="3" rx="1.5"/><rect x="150" y="166" width="20" height="3" rx="1.5"/></g><path d="M0 124q50-14 100-4t110-6 110 8v4H0z" fill="#4b2a78" opacity=".85"/><g stroke="#2f1a52" fill="none" stroke-width="4" stroke-linecap="round"><path d="M34 200Q44 150 52 104M52 104q-20-14-38-4M52 104q18-16 38-8M52 104q-6-22 10-30M52 104q-16-4-26 12"/></g><g stroke="#2f1a52" fill="none" stroke-width="4" stroke-linecap="round"><path d="M288 200Q276 150 268 104M268 104q-20-14-38-4M268 104q18-16 38-8M268 104q-6-22 10-30M268 104q-16-4-26 12"/></g><g transform="translate(176 104) scale(.34)" fill="#2f1a52"><path d="M20 70h210l-18 20H38z"/><path d="M40 70V38q85-34 170 0v32z"/></g><g stroke="#2f1a52" fill="none" stroke-width="2" stroke-linecap="round"><path d="M96 40q5-5 10 0q5-5 10 0M214 54q4-4 8 0q4-4 8 0M70 62q4-4 8 0q4-4 8 0"/></g></svg><img src="wrapping img.webp" alt="Sunset on the backwaters" onload="this.parentNode.classList.add('has')"></div></li>
+      <li><div><div class="t">11:00 AM</div><div class="d">Cake cutting</div></div><span class="dot"></span><div class="ic pi" role="img" aria-label="Birthday cake"><img onerror="this.style.display='none'" src="cake-img.webp" alt="Birthday cake"></div></li>
+      <li class="r"><div><div class="t">Around 1:00 PM</div><div class="d">Lunch on board</div></div><span class="dot"></span><div class="ic pi" role="img" aria-label="Kerala lunch on a banana leaf"><img onerror="this.style.display='none'" src="food-img.webp" alt="Kerala lunch on a banana leaf"></div></li>
+      <li style="margin-bottom:0"><div><div class="t">4:00 – 5:00 PM</div><div class="d">Wrapping up</div></div><span class="dot"></span><div class="ic pi" role="img" aria-label="Sunset on the backwaters"><img onerror="this.style.display='none'" src="wrapping img.webp" alt="Sunset on the backwaters"></div></li>
     </ul>
   </section>
-
+  
   <section class="sheet">
     <h2 class="script">Venue</h2>
-    <a class="vp" id="vp" target="_blank" rel="noopener" aria-label="Open Kumarakom Houseboat in Google Maps" href="#"><svg viewBox="0 0 300 225" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><linearGradient id="sk" x2="0" y2="1"><stop offset="0" stop-color="#bda4ea"/><stop offset=".55" stop-color="#f3e2f3"/><stop offset="1" stop-color="#fcefe2"/></linearGradient><linearGradient id="wt" x2="0" y2="1"><stop offset="0" stop-color="#c5aef0"/><stop offset="1" stop-color="#8f6cd0"/></linearGradient></defs><rect width="300" height="225" fill="url(#sk)"/><g class="sunp"><circle cx="215" cy="100" r="36" fill="#fff6de" opacity=".4"/><circle cx="215" cy="100" r="24" fill="#fff6de"/></g><g stroke="#4b2a78" fill="none" stroke-width="2" stroke-linecap="round"><g class="bird"><path d="M30 46q5-6 10 0q5-6 10 0"/></g><g class="bird b2"><path d="M30 70q4-5 8 0q4-5 8 0"/></g></g><path d="M0 132q45-16 90-4t95-6 115 8v30H0z" fill="#9a84c8"/><rect y="138" width="300" height="90" fill="url(#wt)"/><g stroke="#4b2a78" fill="none" stroke-width="4" stroke-linecap="round"><path d="M38 142q2-34 16-58M54 84q-18-8-30 4M54 84q18-12 34-2M54 84q-6-18 8-26M262 142q-2-30-14-50M248 92q16-8 28 4M248 92q-16-10-30-2"/></g><g class="boat"><g transform="translate(62 96) scale(.82)"><path d="M20 70h210l-18 20H38z" fill="#5d33a0"/><path d="M40 70V38q85-34 170 0v32z" fill="#fffdff" stroke="#7a4fb5" stroke-width="3"/><path d="M40 38q85-34 170 0" fill="none" stroke="#4b2a78" stroke-width="6" stroke-linecap="round"/><g fill="#cdb8ee"><rect x="62" y="46" width="26" height="18" rx="3"/><rect x="102" y="46" width="26" height="18" rx="3"/><rect x="142" y="46" width="26" height="18" rx="3"/></g></g></g><g class="wv w1"><path d="M-60 158q15-6 30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0" stroke="#fff" stroke-opacity="0.5" fill="none" stroke-width="2"/></g><g class="wv w2"><path d="M-60 180q15-6 30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0" stroke="#fff" stroke-opacity="0.4" fill="none" stroke-width="2"/></g><g class="wv w3"><path d="M-60 204q15-6 30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0t30 0" stroke="#fff" stroke-opacity="0.35" fill="none" stroke-width="2"/></g></svg><img src="boat.jpg" alt="Kumarakom houseboat" onload="this.parentNode.classList.add('has')"><span class="go">Tap to open in Google Maps</span></a>
+    <a class="vp" id="vp" target="_blank" rel="noopener" aria-label="Open Kumarakom Houseboat in Google Maps" href="#"><img onerror="this.style.display='none'" src="boat.jpg" alt="Kumarakom houseboat"><span class="go">Tap to open in Google Maps</span></a>
     <p class="addr"><b>Kumarakom Houseboat</b><br>Kumarakom, Kerala</p>
     <ul class="vd" id="vd"></ul>
     <a class="btn" id="maps" target="_blank" rel="noopener" href="#">Open in Maps</a>
   </section>
 
   <section class="sheet">
-    <h2 class="script">Aathi’s little journey</h2>
+    <h2 class="script">Aadhi’s little journey</h2>
     <p class="lead">Two years of smiles, and counting</p>
     <ul class="jr">
-      <li class="l"><div class="slot"><div><img src="timeline3.jpeg" alt="Family photo for Aathi’s journey" onload="this.closest('.slot').classList.add('has')"><span>Add photo</span></div></div><span class="dot"></span><div class="tx"><b>His first pic</b>Our little one arrives</div></li>
-      <li class="rt"><div class="tx"><b>6 month old</b>Every day a new giggle</div><span class="dot"></span><div class="slot"><div><img src="timeline.jpeg" alt="Family photo for Aathi’s journey" onload="this.closest('.slot').classList.add('has')"><span>Add photo</span></div></div></li>
-      <li class="l"><div class="slot"><div><img src="timeline2.jpeg" alt="Family photo for Aathi’s journey" onload="this.closest('.slot').classList.add('has')"><span>Add photo</span></div></div><span class="dot"></span><div class="tx"><b>One year old pic</b>First steps, first cake</div></li>
-      <li class="rt" style="margin-bottom:0"><div class="tx"><b>Now, two!</b>Come celebrate with us</div><span class="dot"></span><div class="slot"><div><img src="timeline4.jpeg" alt="Family photo for Aathi’s journey" onload="this.closest('.slot').classList.add('has')"><span>Add photo</span></div></div></li>
+      <li class="l"><div class="slot"><div><img onerror="this.style.display='none'" src="timeline3.jpeg" alt="Family photo for Aadhi’s journey"></div></div><span class="dot"></span><div class="tx"><b>His first pic</b>Our little one arrives</div></li>
+      <li class="rt"><div class="tx"><b>6 month old</b>Every day a new giggle</div><span class="dot"></span><div class="slot"><div><img onerror="this.style.display='none'" src="timeline.jpeg" alt="Family photo for Aadhi’s journey"></div></div></li>
+      <li class="l"><div class="slot"><div><img onerror="this.style.display='none'" src="timeline2.jpeg" alt="Family photo for Aadhi’s journey"></div></div><span class="dot"></span><div class="tx"><b>One year old pic</b>First steps, first cake</div></li>
+      <li class="rt" style="margin-bottom:0"><div class="tx"><b>Now, two!</b>Come celebrate with us</div><span class="dot"></span><div class="slot"><div><img onerror="this.style.display='none'" src="timeline4.jpeg" alt="Family photo for Aadhi’s journey"></div></div></li>
     </ul>
   </section>
 
@@ -269,7 +268,21 @@ body.ready .mbtn{opacity:1;pointer-events:auto;transform:none}
     <a class="btn" id="yes" target="_blank" rel="noopener" href="#">Happy to join</a>
     <a class="btn alt" id="no" target="_blank" rel="noopener" href="#">Can’t make it</a>
   </section>
-  <p class="foot script" style="font-size:1.9rem;color:var(--violet)">With love, Aathi &amp; family</p>
+
+  <section class="sheet">
+    <h2 class="script">Smiles with our guests</h2>
+    <p class="lead">Aadhi with the people we love</p>
+    <div class="gal">
+      <div class="gt"><img onerror="this.style.display='none'" src="guest1.jpeg" alt="Aadhi with guests"></div>
+      <div class="gt"><img onerror="this.style.display='none'" src="guest2.jpeg" alt="Aadhi with guests"></div>
+      <div class="gt"><img onerror="this.style.display='none'" src="quest5.jpeg" alt="Aadhi with guests"></div>
+      <div class="gt"><img onerror="this.style.display='none'" src="aadhi-pic.jpeg" alt="Aadhi with guests"></div>
+      <div class="gt"><img onerror="this.style.display='none'" src="guest3.jpeg" alt="Aadhi with guests"></div>
+      <div class="gt"><img onerror="this.style.display='none'" src="guest6.jpeg" alt="Aadhi with guests"></div>
+    </div>
+  </section>
+  <p class="foot script" style="font-size:1.9rem;color:var(--violet)">With love, Aadhi &amp; family</p>
+  <p class="credit">Designed by <a href="https://adsofttechnologies.com" target="_blank" rel="noopener">Ad Soft Technologies</a></p>
 </main>
 
 <button class="mbtn" id="mbtn" type="button" aria-label="Birthday music" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3v11.3A3.5 3.5 0 1 0 11 17.5V7.6l7-1.6v6.3A3.5 3.5 0 1 0 20 15.5V3z"/></svg></button>
@@ -323,16 +336,6 @@ env.addEventListener('click',openIt);
   });
 })();
 
-/* photo pickers (tap to swap a photo) */
-var ph=document.getElementById('photo'),pi=document.getElementById('phimg'),pf=document.getElementById('pf');
-ph.addEventListener('click',function(){pf.click()});
-ph.addEventListener('keydown',function(e){if(e.key==='Enter')pf.click()});
-pf.addEventListener('change',function(){var f=pf.files[0];if(!f)return;var r=new FileReader();r.onload=function(){pi.src=r.result;ph.classList.add('has')};r.readAsDataURL(f)});
-document.querySelectorAll('.slot,.pi').forEach(function(el){
-  function go(){var i=document.createElement('input');i.type='file';i.accept='image/*';i.onchange=function(){var f=i.files[0];if(!f)return;var r=new FileReader();r.onload=function(){el.querySelector('img').src=r.result;el.classList.add('has')};r.readAsDataURL(f)};i.click()}
-  el.addEventListener('click',go);el.setAttribute('tabindex','0');el.addEventListener('keydown',function(e){if(e.key==='Enter')go()});
-});
-
 /* date, venue details, countdown */
 var TZ='Asia/Kolkata';
 try{
@@ -358,8 +361,8 @@ tick();setInterval(tick,1000);
 
 /* RSVP via WhatsApp */
 function wa(msg){return 'https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent(msg)}
-document.getElementById('yes').href=wa('Hi! We’re happy to join Aathi’s 2nd birthday at Kumarakom Houseboat. 🎉');
-document.getElementById('no').href=wa('Hi! Sorry, we can’t make it to Aathi’s 2nd birthday, but sending lots of love. 💜');
+document.getElementById('yes').href=wa('Hi! We’re happy to join Aadhi’s 2nd birthday at Kumarakom Houseboat. 🎉');
+document.getElementById('no').href=wa('Hi! Sorry, we can’t make it to Aadhi’s 2nd birthday, but sending lots of love. 💜');
 /* ---- birthday music: synthesised "Happy Birthday" music box, no audio file needed ---- */
 var MUSIC_FILE='';   // optional: put your own track here, e.g. 'birthday.mp3'
 var mbtn=document.getElementById('mbtn'),music={ctx:null,master:null,on:false,el:null,started:false,next:0},BPM=104;
