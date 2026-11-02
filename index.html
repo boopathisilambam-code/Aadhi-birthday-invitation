@@ -485,7 +485,7 @@ var WA_NUMBER = '917012822057';                       // RSVP + contact number (
 var VENUE = {
   boarding: 'Kumarakom Houseboat, Kottayam',   // shown only if filled
   arrive:   '',   // e.g. '10:30 AM' – shown only if filled
-  mapsQuery:'Kumarakom Houseboat Kerala'
+ mapsUrl:  'https://maps.app.goo.gl/BxMauj6jvUMZxdHg8'
 };
 /* -------------------- */
 var env=document.getElementById('env'),stage=document.getElementById('stage'),card=document.getElementById('card'),opened=false;
@@ -541,7 +541,7 @@ try{
   rows.push(['Contact','<a href="tel:+'+WA_NUMBER+'">+'+WA_NUMBER.replace(/^(\d{2})(\d{5})(\d{5})$/,'$1 $2 $3')+'</a>']);
   document.getElementById('ldate').textContent=rows[0][1];
   document.getElementById('vd').innerHTML=rows.map(function(r){return '<li><b>'+r[0]+'</b> '+r[1]+'</li>'}).join('');
-  document.getElementById('maps').href='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(VENUE.mapsQuery);
+  document.getElementById('maps').href=VENUE.mapsUrl;
   document.getElementById('vp').href=document.getElementById('maps').href;
 })();
 function tick(){
